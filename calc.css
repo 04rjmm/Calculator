@@ -1,0 +1,47 @@
+.keys { 
+  display: grid; 
+  grid-template-columns: repeat(4,100px);
+  grid-template-rows: repeat(5,60px);
+  grid-row-gap: 15px; 
+  grid-column-gap: 3px;
+}
+.key--equal {
+  grid-column: -2;
+  grid-row: 2 / span 4;
+}
+button {
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid white;
+  font-size: 45px;
+  font-family: "Montserrat Alternates";
+  color: white;
+}
+.num {
+  background-color: #ffe100;
+}
+.operator {
+  background-color: #31a38e;
+}
+#rest {
+  background-color: #9dbdd4;
+}
+.calculator__display {
+  height: 100px;
+  width: 409px;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 80px;
+  font-family: "Montserrat Alternates";
+  color: white; 
+}
+.calculator {
+  background-color: #bfbca4;
+  margin: 0px;
+  width: 451px;
+  padding-left: 21px;
+  margin-top: 70px;
+  padding-bottom: 15px; 
+  margin-left: auto;
+  margin-right: auto;
+}
